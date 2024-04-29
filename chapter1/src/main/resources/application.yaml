@@ -1,0 +1,7 @@
+user:
+  id: 1
+  name: jack
+  age: 18
+  hobby: [read,game,ball]
+  job: {company: 京东, salary: 800000}
+  pets: [{type: cat,name: tom},{type: dog,name: coco}]

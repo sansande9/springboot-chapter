@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf语法</title>
+</head>
+<body>
+<fieldset>
+    <legend>获取id为1的评论详情</legend>
+    <table border="1">
+<!--        <tr><td>评论内容</td><td th:text="${comment.content}"></td></tr>-->
+<!--        <tr><td>评论作者</td><td th:text="${comment.author}"></td></tr>-->
+    </table>
+</fieldset>
+
+<!--<fieldset>-->
+<!--    <legend>根据状态值显示不同的内容</legend>-->
+<!--    <div>-->
+<!--        <p style="color: green" th:if="status=1">恭喜你，验证通过</p>-->
+<!--        <p style="color: red">很抱歉，验证失败</p>-->
+<!--    </div>-->
+<!--</fieldset>-->
+
+<fieldset>
+    <legend>获取对id为1的文章的所有评论列表</legend>
+    <table border="1">
+        <tr>
+            <th>评论序号</th>
+            <th>评论内容</th>
+            <th>评论作者</th>
+            <td>状态</td>
+        </tr>
+        <tr th:each="item,status:${items}">
+            <td th:text="${item.id}">1</td>
+            <td th:text="${item.content}">真是绝了</td>
+            <td th:text="${item.author}">lily</td>
+            <td th:text="${item.date}"></td>
+        </tr>
+    </table>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: prod
+
+
+student:
+  name: "高文志"
+  stuno: 219970206
+  favorite: [read,game,ball]
+  classs: {classsNo: "1", classsName: "Java1班"}
