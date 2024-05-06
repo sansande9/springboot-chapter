@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/css/bootstrap.min.css}" href="css/bootstrap.min.css" rel="stylesheet">
+    <link th:href="@{/css/signin.css}" href="css/signin.css" rel="stylesheet">
+</head>
+<body>
+<form class="form-signin" method="post" action="/user/register">
+  <input type="text" class="form-control" name="username"
+         placeholder="用户名" required="" autofocus="">
+  <input type="password" class="form-control" name="password"
+         placeholder="密码" required="">
+    <div><button type="submit" class="btn btn-lg btn-primary btn-block"> 注册</button></div>
+</form>
+
+</body>
+</html>

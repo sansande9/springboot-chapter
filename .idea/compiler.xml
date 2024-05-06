@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-mybaitsplus" />
         <module name="spring-thymeleaf" />
         <module name="shiyan2" />
         <module name="shiyan3" />
         <module name="shiyan4" />
-        <module name="spring-securuty" />
         <module name="chapter1" />
+        <module name="shiyan5" />
         <module name="sms-spring-boot-starter" />
+        <module name="springSecurity_demo1" />
         <module name="chapter2-springboot-mybatis" />
         <module name="springboot-aliyun" />
+        <module name="springboot-mybaitsplus" />
+        <module name="spring-securuty" />
         <module name="springboot-io" />
       </profile>
     </annotationProcessing>
@@ -28,9 +30,11 @@
       <module name="shiyan2" options="-parameters" />
       <module name="shiyan3" options="-parameters" />
       <module name="shiyan4" options="-parameters" />
+      <module name="shiyan5" options="-parameters" />
       <module name="sms-spring-boot-starter" options="-parameters" />
       <module name="spring-securuty" options="-parameters" />
       <module name="spring-thymeleaf" options="-parameters" />
+      <module name="springSecurity_demo1" options="-parameters" />
       <module name="springboot-io" options="-parameters" />
       <module name="springboot-mybaitsplus" options="-parameters" />
     </option>
