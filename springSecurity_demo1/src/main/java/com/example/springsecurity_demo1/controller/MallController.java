@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MallController {
+    
     @RequestMapping("/order/manage")
     @ResponseBody
     public String orderManage(){
